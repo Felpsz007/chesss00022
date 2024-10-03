@@ -1,0 +1,150 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #141414;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #E50914;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    color: #fff;
+}
+
+select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button {
+    background-color: #E50914;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff1c1c;
+    transform: scale(1.02);
+}
+
+#days-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#days-selection label {
+    flex: 1 1 30%;
+    margin: 5px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#days-selection input[type="checkbox"] {
+    display: none; /* Esconde o checkbox */
+}
+
+#days-selection input[type="checkbox"]:checked + label {
+    background-color: #E50914; /* Muda para vermelho ao selecionar */
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #E50914; /* Brilho vermelho mais intenso */
+}
+
+#puzzle-selection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#puzzle-selection input[type="checkbox"] {
+    margin-right: 10px; /* Espaçamento entre o checkbox e o texto */
+}
+
+#training-plan {
+    margin-top: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.training-table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.training-table th, .training-table td {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+    color: #fff;
+    text-align: left;
+}
+
+.training-table th {
+    background-color: #E50914;
+}
+
+.training-table tbody tr:hover {
+    background-color: #333;
+}
+#puzzle-selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#puzzle-selection label {
+    flex: 1 1 30%;
+    margin: 5px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#puzzle-selection input[type="checkbox"] {
+    display: none; /* Esconde o checkbox */
+}
+
+#puzzle-selection input[type="checkbox"]:checked + label {
+    background-color: #E50914; /* Muda para vermelho ao selecionar */
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #E50914; /* Brilho vermelho mais intenso */
+}
